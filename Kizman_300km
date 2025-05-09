@@ -33,3 +33,6 @@ folium.Circle(
 
 # Збереження карти у файл
 m.save("map_ukraine.html")
+import webbrowser
+webbrowser.open("map_ukraine.html")
+
